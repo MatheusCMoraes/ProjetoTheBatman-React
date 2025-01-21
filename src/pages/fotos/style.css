@@ -1,0 +1,32 @@
+.gallery-container {
+    background-image: url('../../Galery/n0.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 90% 80%;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+.gallery{
+  border-radius: 5px;
+  background: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 30px;
+
+}
+
+.gallery-image {
+    border-radius: 25px;
+    transition: 2s;
+}
+
+  /* Efeito hover */
+.gallery-image:hover {
+    transform: scale(1.1);
+  }

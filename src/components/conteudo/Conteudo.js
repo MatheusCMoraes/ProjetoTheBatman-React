@@ -1,4 +1,5 @@
 import "./style.css"
+import video from '../../Galery/Trailer.mp4'
 
 function Conteudo(){
 
@@ -6,7 +7,7 @@ function Conteudo(){
         <>
             <div className="content">
                 <video className="trailer" controls > 
-                    <source src="../../Galery/src/The Batman - Trailer Principal.mp4" type="video/mp3"/>
+                    <source src={video} type="video/mp4"/>
                     Seu navegador não possui suporte para vídeos
                 </video>
                 <div id="content-text">
