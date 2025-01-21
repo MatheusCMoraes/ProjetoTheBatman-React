@@ -1,11 +1,12 @@
 import "./style.css";
+import logo from "../../Galery/logo.jpg";
 
 function Footer(){
 
     return(
         <>
             <div className="footer_container">
-                <img src="../Galery/logo.png" alt="logo image" />
+                <img id="logo" src={logo}/>
 
                 <span>Todos os direitos reservados ©</span>
 
