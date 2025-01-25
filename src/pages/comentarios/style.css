@@ -1,0 +1,96 @@
+#coment-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A60506;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#coment-section{
+
+    display: flex;
+
+    border: 2px solid #000;
+    
+    border-radius: 10px;
+    width: 99%;
+    height: 50%;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66fb9510-4253-4146-8f84-a9df9909a601/dfs591y-0461d67e-f637-439c-b782-88900a325596.png/v1/fill/w_894,h_894,q_70,strp/batman_working_at_the_computer__midjourney__by_fbombheart_dfs591y-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzY2ZmI5NTEwLTQyNTMtNDE0Ni04Zjg0LWE5ZGY5OTA5YTYwMVwvZGZzNTkxeS0wNDYxZDY3ZS1mNjM3LTQzOWMtYjc4Mi04ODkwMGEzMjU1OTYucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kFKC4bHnMK-Ni9Sws_p4xpq3ILmiTjzI7jykxZel4qo');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+#coment-screen{
+    background: none;
+    padding: 10px;
+    width: 99%;
+    border-radius: 10px; 
+
+}
+
+#coment{
+    background: none;    
+    border: 2px solid #000;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    resize: none;
+    border-radius: 10px;
+    width: 95%;
+    height: 60%;
+}
+
+#coment-screen button{
+    display: flex;
+    background-color: #000;
+
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;  
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+ }
+
+#coment-screen button:hover{
+    color: #A60506;
+
+}
+
+#coment-screen label{
+    background: none;
+    margin: 10px;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+
+
+#coment:focus{
+    background-color: #1d1d1b;
+    color: #fff;
+    outline: none;
+}
+
+
+#coment-list{
+    border: 2px solid #000;
+    background-color: #1d1d1b;
+    padding: 10px;
+    width: 96%;
+    height: 50%;
+    border-radius: 10px;  
+
+}
+

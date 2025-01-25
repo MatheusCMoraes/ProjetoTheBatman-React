@@ -7,7 +7,7 @@ function FormContato(){
 return(
     <>
         <div id='container'>
-            <img id='letterImg' src={img} />
+            <img id='letterImg' src={img} alt="Batletter"/>
             <form>
                 <label for='email'>Email</label>
                 <input type='email' id='email' name='email' placeholder='Informe seu email' required></input>
